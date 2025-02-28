@@ -2,7 +2,7 @@ body {
   margin: 0%;
   /* background-color: black; */
 }
-.firstdiv1 {
+.box1 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -32,7 +32,7 @@ body {
   }
 }
 @media (max-width: 900px) {
-  .firstdiv1 {
+  .box1 {
     width: 200px;
   }
 }
@@ -72,7 +72,7 @@ body {
   margin: 1%;
   border-radius: 10px;
 }
-.firstdiv2 {
+.box2 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -104,7 +104,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv3 {
+.box3 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -127,7 +127,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv4 {
+.box4 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -150,7 +150,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv5 {
+.box5 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -173,7 +173,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv6 {
+.box6 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -196,7 +196,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv7 {
+.box7 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -219,7 +219,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv8 {
+.box8 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -242,7 +242,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv9 {
+.box9 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -265,7 +265,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv10 {
+.box10 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -288,7 +288,7 @@ body {
     border-radius: 10px;
   }
 }
-.firstdiv11 {
+.box11 {
   width: 250px;
   height: 250px;
   margin: 1%;
@@ -330,14 +330,14 @@ body {
   padding-top: 30px;
   padding-left: 300px;
   margin-left: 20px;
-  #contener {
+  .contener {
     padding: 0%;
     margin-top: 70px;
     margin-left: 10px;
     width: 250px;
   }
   @media (max-width: 900px) {
-    #contener {
+    .contener {
       width: 200px;
     }
   }
@@ -367,7 +367,7 @@ body {
     text-align: center;
     padding: 8px;
     padding-right: 17px;
-    background-color: rgba(128, 128, 128, 0.161);
+    /* background-color: rgba(128, 128, 128, 0.161); */
     border-radius: 20px;
     margin-left: 2%;
   }
@@ -449,8 +449,10 @@ h3:hover {
   color: black;
 }
 #logohai {
-  width: 66px;
-  height: 67px;
+  width: 42px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .searchbar {
@@ -493,4 +495,7 @@ h3:hover {
     margin: 5px;
     border-radius: 8px;
   }
+}
+.hide {
+  display: none;
 }
